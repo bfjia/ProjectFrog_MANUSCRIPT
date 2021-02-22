@@ -41,9 +41,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/" />
   <meta name="citation_pdf_url" content="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/v/0adc7acc1e9da36b30b2680fcc74296719668763/" />
-  <meta name="manubot_html_url_versioned" content="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/v/0adc7acc1e9da36b30b2680fcc74296719668763/" />
-  <meta name="manubot_pdf_url_versioned" content="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/v/0adc7acc1e9da36b30b2680fcc74296719668763/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/v/315a5ac4bcdfa9c03f154018b5e2852eadafd9bd/" />
+  <meta name="manubot_html_url_versioned" content="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/v/315a5ac4bcdfa9c03f154018b5e2852eadafd9bd/" />
+  <meta name="manubot_pdf_url_versioned" content="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/v/315a5ac4bcdfa9c03f154018b5e2852eadafd9bd/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -65,9 +65,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/v/0adc7acc1e9da36b30b2680fcc74296719668763/))
+([permalink](https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/v/315a5ac4bcdfa9c03f154018b5e2852eadafd9bd/))
 was automatically generated
-from [imasianxd/ProjectFrog_MANUSCRIPT@0adc7ac](https://github.com/imasianxd/ProjectFrog_MANUSCRIPT/tree/0adc7acc1e9da36b30b2680fcc74296719668763)
+from [imasianxd/ProjectFrog_MANUSCRIPT@315a5ac](https://github.com/imasianxd/ProjectFrog_MANUSCRIPT/tree/315a5ac4bcdfa9c03f154018b5e2852eadafd9bd)
 on February 22, 2021.
 </em></small>
 
@@ -98,9 +98,71 @@ on February 22, 2021.
 
 
 
-## Abstract {.page_break_before}
+## Abstract {#abstract}
+
+Text in the abstract goes here.
+This summarize all the great things we did. 
+
+## Keywords
+word1, word2, word3
+
+## Section 3
+...
+
+## Introduction {#main}
+
+Text goes here. reference is like this [@doi:10.1234/j.ecolmodel.etc]
 
 
+
+## Methods {#methods}
+
+### Subheader 1
+
+methodology 1
+
+### Subheader 2017
+
+methodology 2
+
+
+## Results {#results}
+
+### result subheader 1
+
+The amazing result of our analysis goes here. 
+An example figure reference is like this(Fig. @fig:FigureAnchorName1). 
+
+![**Figure Title**. Figure descriptions goes here.](images/PathToFigureImage.png){#fig:FigureAnchorName1 width="6.5in"}
+
+### result subheader 2
+
+More amazing result of our analysis goes here. 
+more examples of figure reference is like this(Fig. @fig:FigureAnchorName3, Fig. @fig:FigureAnchorName2). 
+
+![**Figure Title**. Figure descriptions goes here.](images/PathToFigureImage.png){#fig:FigureAnchorName3 width="6.5in"}
+![**Figure Title**. Figure descriptions goes here.](images/PathToFigureImage.png){#fig:FigureAnchorName2 width="6.5in"}
+
+## Discussion {#discussion}
+
+disscussion.
+
+## Supplementary Information {#supplementals}
+
+
+## Acknowledgements
+The authors would like to thank their funders and the Simon Fraser University (SFU) Research Computing Group and Compute Canada for compute resource support.
+
+## Funding Information
+B.J. hold Canadian Institutes of Health Research (CIHR) doctoral scholarships and Simon Fraser University (SFU) Omics and Data Sciences fellowships.
+F.S.L.B. holds an SFU Distinguished Professorship. 
+Additionally, this work was partially supported by Genome Canada and NSERC grants to R.G.B. and F.S.L.B.
+
+## Conflict of Interest
+
+The authors declare no competing interests.
+
+## References {#references}
 
 
 ## References {.page_break_before}

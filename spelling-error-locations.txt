@@ -1,0 +1,16 @@
+content/00.front-matter.md:47:funders
+content/00.front-matter.md:47:funders
+content/00.front-matter.md:48:funders
+content/03.methods.md:3:Subheader
+content/03.methods.md:7:Subheader
+content/04.results.md:3:subheader
+content/04.results.md:10:subheader
+content/05.discussion.md:3:disscussion
+content/07.misc.md:1:Acknowledgements
+content/07.misc.md:2:funders
+content/07.misc.md:2:SFU
+content/07.misc.md:5:CIHR
+content/07.misc.md:5:Omics
+content/07.misc.md:5:SFU
+content/07.misc.md:6:SFU
+content/07.misc.md:7:NSERC

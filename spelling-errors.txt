@@ -1,4 +1,13 @@
+Acknowledgements
+CIHR
+disscussion
+FigureAnchorName
+funders
 janeroe
 johndoe
+NSERC
+Omics
+SFU
+subheader
 XXXX
 XXXXXXXX
