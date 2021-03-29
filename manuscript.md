@@ -7,8 +7,11 @@ keywords:
 lang: en-US
 date-meta: '2021-03-29'
 author-meta:
-- John Doe
-- Jane Roe
+- Jacob Imbery*
+- Baofeng Jia*
+- Thea Van Rossum
+- Caren C. Helbing
+- Fiona S.L. Brinkman
 header-includes: |-
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
@@ -27,23 +30,31 @@ header-includes: |-
   <meta name="dc.publisher" content="Manubot" />
   <meta name="citation_journal_title" content="Manubot" />
   <meta name="citation_technical_report_institution" content="Manubot" />
-  <meta name="citation_author" content="John Doe" />
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
-  <meta name="twitter:creator" content="@johndoe" />
-  <meta name="citation_author" content="Jane Roe" />
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
-  <meta name="citation_author_institution" content="Department of Whatever, University of Something" />
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
+  <meta name="citation_author" content="Jacob Imbery*" />
+  <meta name="citation_author_institution" content="University of Victoria, Victoria, BC, Canada" />
+  <meta name="citation_author_orcid" content="None" />
+  <meta name="citation_author" content="Baofeng Jia*" />
+  <meta name="citation_author_institution" content="Department of Molecular Biology and Biochemistry, Simon Fraser University" />
+  <meta name="citation_author_orcid" content="0000-0002-4735-4709" />
+  <meta name="twitter:creator" content="@bfjia" />
+  <meta name="citation_author" content="Thea Van Rossum" />
+  <meta name="citation_author_institution" content="Department of Molecular Biology and Biochemistry, Simon Fraser University" />
+  <meta name="citation_author_orcid" content="None" />
+  <meta name="citation_author" content="Caren C. Helbing" />
+  <meta name="citation_author_institution" content="University of Victoria, Victoria, BC, Canada" />
+  <meta name="citation_author_orcid" content="None" />
+  <meta name="citation_author" content="Fiona S.L. Brinkman" />
+  <meta name="citation_author_institution" content="Department of Molecular Biology and Biochemistry, Simon Fraser University" />
+  <meta name="citation_author_orcid" content="0000-0002-0584-4099" />
   <link rel="canonical" href="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/" />
   <meta property="og:url" content="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/" />
   <meta property="twitter:url" content="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/" />
   <meta name="citation_fulltext_html_url" content="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/" />
   <meta name="citation_pdf_url" content="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/v/05f798133877bbd62285adf83e72042f691d433b/" />
-  <meta name="manubot_html_url_versioned" content="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/v/05f798133877bbd62285adf83e72042f691d433b/" />
-  <meta name="manubot_pdf_url_versioned" content="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/v/05f798133877bbd62285adf83e72042f691d433b/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/v/02adda2bcf9d36b216ed02f54ed6b187d42267f4/" />
+  <meta name="manubot_html_url_versioned" content="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/v/02adda2bcf9d36b216ed02f54ed6b187d42267f4/" />
+  <meta name="manubot_pdf_url_versioned" content="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/v/02adda2bcf9d36b216ed02f54ed6b187d42267f4/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -65,9 +76,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/v/05f798133877bbd62285adf83e72042f691d433b/))
+([permalink](https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/v/02adda2bcf9d36b216ed02f54ed6b187d42267f4/))
 was automatically generated
-from [imasianxd/ProjectFrog_MANUSCRIPT@05f7981](https://github.com/imasianxd/ProjectFrog_MANUSCRIPT/tree/05f798133877bbd62285adf83e72042f691d433b)
+from [imasianxd/ProjectFrog_MANUSCRIPT@02adda2](https://github.com/imasianxd/ProjectFrog_MANUSCRIPT/tree/02adda2bcf9d36b216ed02f54ed6b187d42267f4)
 on March 29, 2021.
 </em></small>
 
@@ -75,25 +86,37 @@ on March 29, 2021.
 
 
 
-+ **John Doe**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
-    · ![GitHub icon](images/github.svg){.inline_icon}
-    [johndoe](https://github.com/johndoe)
-    · ![Twitter icon](images/twitter.svg){.inline_icon}
-    [johndoe](https://twitter.com/johndoe)<br>
++ **Jacob Imbery***<br><br>
   <small>
-     Department of Something, University of Whatever
-     · Funded by Grant XXXXXXXX
+     University of Victoria, Victoria, BC, Canada
   </small>
 
-+ **Jane Roe**<br>
++ **Baofeng Jia***<br>
     ![ORCID icon](images/orcid.svg){.inline_icon}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
+    [0000-0002-4735-4709](https://orcid.org/0000-0002-4735-4709)
     · ![GitHub icon](images/github.svg){.inline_icon}
-    [janeroe](https://github.com/janeroe)<br>
+    [imasianxd](https://github.com/imasianxd)
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    [bfjia](https://twitter.com/bfjia)<br>
   <small>
-     Department of Something, University of Whatever; Department of Whatever, University of Something
+     Department of Molecular Biology and Biochemistry, Simon Fraser University
+  </small>
+
++ **Thea Van Rossum**<br><br>
+  <small>
+     Department of Molecular Biology and Biochemistry, Simon Fraser University
+  </small>
+
++ **Caren C. Helbing**<br><br>
+  <small>
+     University of Victoria, Victoria, BC, Canada
+  </small>
+
++ **Fiona S.L. Brinkman**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0002-0584-4099](https://orcid.org/0000-0002-0584-4099)<br>
+  <small>
+     Department of Molecular Biology and Biochemistry, Simon Fraser University
   </small>
 
 
@@ -115,7 +138,7 @@ Taken together with the differences observed in the microbiome with metamorphic 
 This suggests that the skin microbiome may be a suitable tool to monitor EDCs at levels that are biologically consequential without a tendency for false positives. 
 
 ## Keywords
-word1, word2, word3
+Microbiome, Hormone Exposure, Development.
 
 
 ## Introduction {#main}
@@ -313,8 +336,6 @@ The authors declare no competing interests.
 ## References {#references}
 
 
-![Critical habitat of the St. Lawrence Estuary (SLE;)](images/map.png){#fig:map}
-
 ![**RNASeq methodology overview**. figure description. ](images/method_overview.png){#fig:methodology_overview width="6.5in"}
 
 ![**K-mer threshold for taxonomy identification**. Excluding counts generated using a 10 to 30% confidence intervals for kraken2 mapping creates a linear correlation (R2 > 0.95) between percent confidence and number of bacterial.](images/kmer_threshold.png){#fig:kmer_threshold width="6.5in"}
@@ -331,9 +352,9 @@ The authors declare no competing interests.
 
 ![**Shannon Diversity Index of The T3/T4 Microbiomes Comparing Different Conditions**. ](images/alpha_diversity_t.png){#fig:alpha_diversity_t width="6.5in"}
 
-![**PCoA of the T3/T4 treated micorbiomes**. ](images/unifrac_pcoa_t.png){#fig:nmds_t width="6.5in"}
+![**PCoA of the T3/T4 treated micorbiomes**. ](images/nmds_t.png){#fig:nmds_t width="6.5in"}
 
-![**PCoA of the T3/T4 treated micorbiomes**. ](images/unifrac_pcoa_t.png){#fig:nmds_t_cluster width="6.5in"}
+![**PCoA of the T3/T4 treated micorbiomes**. ](images/nmds_t_cluster.png){#fig:nmds_t_cluster width="6.5in"}
 
 
 ## Supplementary Information {#supplementals}
