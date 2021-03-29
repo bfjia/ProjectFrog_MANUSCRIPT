@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/imasianxd/ProjectFrog_MANUSCRIPT/tree/gh-pages) branch hosts the contents of this directory at <https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/>.
-The permalink for this webpage version is <https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/v/0adc7acc1e9da36b30b2680fcc74296719668763/>.
+The permalink for this webpage version is <https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/v/f085f3b5e256ccf3b2b19ae36a09f7d42f0f307f/>.
 To redirect to the permalink for the latest manuscript version at anytime, use the link <https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/v/freeze/>.
 
 ## Files
@@ -35,4 +35,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`0adc7acc1e9da36b30b2680fcc74296719668763`](https://github.com/imasianxd/ProjectFrog_MANUSCRIPT/commit/0adc7acc1e9da36b30b2680fcc74296719668763).
+[`f085f3b5e256ccf3b2b19ae36a09f7d42f0f307f`](https://github.com/imasianxd/ProjectFrog_MANUSCRIPT/commit/f085f3b5e256ccf3b2b19ae36a09f7d42f0f307f).
