@@ -76,6 +76,7 @@ if [ "${BUILD_PDF:-}" != "false" ] && [ -n "$DOCKER_RUNNING" ]; then
   rm -rf output/images
 fi
 
+BUILD_DOCX="true"
 # Create DOCX output (if BUILD_DOCX environment variable equals "true")
 if [ "${BUILD_DOCX:-}" = "true" ]; then
   echo >&2 "Exporting Word Docx manuscript"
@@ -84,6 +85,8 @@ if [ "${BUILD_DOCX:-}" = "true" ]; then
     --defaults=common.yaml \
     --defaults=docx.yaml
 fi
+
+SPELLCHECK="false"
 
 # Spellcheck
 if [ "${SPELLCHECK:-}" = "true" ]; then
