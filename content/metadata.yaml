@@ -6,21 +6,40 @@ keywords:
   - manubot
 lang: en-US
 authors:
-  - github: johndoe
-    name: John Doe
-    initials: JD
-    orcid: XXXX-XXXX-XXXX-XXXX
-    twitter: johndoe
-    email: john.doe@something.com
+  -
+    name: Jacob Imbery*
+    initials: JI
+    orcid: 
+    email: 
     affiliations:
-      - Department of Something, University of Whatever
-    funders:
-      - Grant XXXXXXXX
-  - github: janeroe
-    name: Jane Roe
-    initials: JR
-    orcid: XXXX-XXXX-XXXX-XXXX
-    email: jane.roe@whatever.edu
+      - University of Victoria, Victoria, BC, Canada
+  -
+    github: imasianxd
+    name: Baofeng Jia*
+    initials: BJ
+    orcid: 0000-0002-4735-4709
+    email: bja20@sfu.ca
+    twitter: bfjia
     affiliations:
-      - Department of Something, University of Whatever
-      - Department of Whatever, University of Something
+      - Department of Molecular Biology and Biochemistry, Simon Fraser University
+  -
+    name: Thea Van Rossum
+    initials: TVR
+    orcid: 
+    email: 
+    affiliations:
+      - Department of Molecular Biology and Biochemistry, Simon Fraser University
+  -
+    name: Caren C. Helbing
+    initials: CCH
+    email: 
+    orcid: 
+    affiliations:
+      - University of Victoria, Victoria, BC, Canada
+  -
+    name: Fiona S.L. Brinkman
+    initials: FSLB
+    orcid: 0000-0002-0584-4099
+    email: brinkman@sfu.ca
+    affiliations:
+      - Department of Molecular Biology and Biochemistry, Simon Fraser University
