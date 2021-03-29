@@ -52,9 +52,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/" />
   <meta name="citation_pdf_url" content="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/v/02adda2bcf9d36b216ed02f54ed6b187d42267f4/" />
-  <meta name="manubot_html_url_versioned" content="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/v/02adda2bcf9d36b216ed02f54ed6b187d42267f4/" />
-  <meta name="manubot_pdf_url_versioned" content="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/v/02adda2bcf9d36b216ed02f54ed6b187d42267f4/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/v/983706a832a710301c6bcc695220f72b7d4a7bae/" />
+  <meta name="manubot_html_url_versioned" content="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/v/983706a832a710301c6bcc695220f72b7d4a7bae/" />
+  <meta name="manubot_pdf_url_versioned" content="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/v/983706a832a710301c6bcc695220f72b7d4a7bae/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -76,9 +76,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/v/02adda2bcf9d36b216ed02f54ed6b187d42267f4/))
+([permalink](https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/v/983706a832a710301c6bcc695220f72b7d4a7bae/))
 was automatically generated
-from [imasianxd/ProjectFrog_MANUSCRIPT@02adda2](https://github.com/imasianxd/ProjectFrog_MANUSCRIPT/tree/02adda2bcf9d36b216ed02f54ed6b187d42267f4)
+from [imasianxd/ProjectFrog_MANUSCRIPT@983706a](https://github.com/imasianxd/ProjectFrog_MANUSCRIPT/tree/983706a832a710301c6bcc695220f72b7d4a7bae)
 on March 29, 2021.
 </em></small>
 
@@ -338,7 +338,7 @@ The authors declare no competing interests.
 
 ![**RNASeq methodology overview**. figure description. ](images/method_overview.png){#fig:methodology_overview width="6.5in"}
 
-![**K-mer threshold for taxonomy identification**. Excluding counts generated using a 10 to 30% confidence intervals for kraken2 mapping creates a linear correlation (R2 > 0.95) between percent confidence and number of bacterial.](images/kmer_threshold.png){#fig:kmer_threshold width="6.5in"}
+![**K-mer threshold for taxonomy identification**. Excluding counts generated using a 10 to 30% confidence intervals for kraken2 mapping creates a linear correlation (R2 > 0.95) between percent confidence and number of bacterial.](images/kmer-threshold.png){#fig:kmer_threshold width="6.5in"}
 
 ![**Relative Abundance of 16S Microbiomes at the Bacterial Phylum Level**. The relative abundance of the top 10 bacterial phyla present across all samples represents >99% of all reads sequenced. The  tadpole skin microbiome (labelled 1-23) consisted of predominately Proteobacteria (Purple). However, as life stage progresses, froglets are dominated by Verrucomicrobia. The relative distribution of phyla in the positive control (labelled POS) is as expected. Sterile swabs (labelled SSC) and negative controls (labelled NSC) have <2k reads on average. ](images/phylum_label.png){#fig:phylum_combined width="6.5in"}
 
