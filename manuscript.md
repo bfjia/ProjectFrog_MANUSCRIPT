@@ -41,9 +41,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/" />
   <meta name="citation_pdf_url" content="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/v/463ab76bfa6ae37c950528d4dec919c160b76c50/" />
-  <meta name="manubot_html_url_versioned" content="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/v/463ab76bfa6ae37c950528d4dec919c160b76c50/" />
-  <meta name="manubot_pdf_url_versioned" content="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/v/463ab76bfa6ae37c950528d4dec919c160b76c50/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/v/05f798133877bbd62285adf83e72042f691d433b/" />
+  <meta name="manubot_html_url_versioned" content="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/v/05f798133877bbd62285adf83e72042f691d433b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/v/05f798133877bbd62285adf83e72042f691d433b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -65,9 +65,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/v/463ab76bfa6ae37c950528d4dec919c160b76c50/))
+([permalink](https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/v/05f798133877bbd62285adf83e72042f691d433b/))
 was automatically generated
-from [imasianxd/ProjectFrog_MANUSCRIPT@463ab76](https://github.com/imasianxd/ProjectFrog_MANUSCRIPT/tree/463ab76bfa6ae37c950528d4dec919c160b76c50)
+from [imasianxd/ProjectFrog_MANUSCRIPT@05f7981](https://github.com/imasianxd/ProjectFrog_MANUSCRIPT/tree/05f798133877bbd62285adf83e72042f691d433b)
 on March 29, 2021.
 </em></small>
 
@@ -222,23 +222,23 @@ These two lists were then fed through the kraken2 databases consisting of each o
 
 ### Characterization of Lithobates catesbeianus skin bacterial microbiome across life stages. 
 
-Overall, seven phyla were detected at a high abundance and represented >95% of all bullfrog microbiomes (Fig. @phylum_combined). 
+Overall, seven phyla were detected at a high abundance and represented >95% of all bullfrog microbiomes (Fig. @fig:phylum_combined). 
 Proteobacteria were the most dominant in tadpoles (median 27%) followed by Fusobacteria (median 12%), but both of their relative abundance decreased with life stage. 
 At the froglet stage, Verrucomicrobia (median 89%) became the most dominant phyla. 
 
 We further explored the difference between the lifestages using an alpha diversity measure via the Shannon-Wiener index. 
-Tadpoles exhited the greatest alpha diversity, decreasing as it progresses to froglets (Fig. @alpha_diversity). 
+Tadpoles exhited the greatest alpha diversity, decreasing as it progresses to froglets (Fig. @fig:alpha_diversity). 
 Using unweighted UniFrac distance, we showed the separation of microbiomes associated with each life stage. 
-We captured this separate using a 2-axis PCoA, demostrating a distinct separation of froglet and tadpoles, with samples in different stages of metamorphosis scattered in between (Fig. @bray_nmds, Fig. @bray_nmds_cluster). 
+We captured this separate using a 2-axis PCoA, demostrating a distinct separation of froglet and tadpoles, with samples in different stages of metamorphosis scattered in between (Fig. @fig:bray_nmds, Fig. @fig:bray_nmds_cluster). 
 Frog sex, mass and length of the tadpole had no impact on the community composition (Fig. @sex_mass_length)
 
 ### The effect of T3 and T4 Exposure on the Lithobates catesbeianus skin microbiome. 
 
-The skin microbiome were analysed based on 40 sequenced samples exposed to T3 or T4 (across premet, promet and froglets life stages). 
+The skin microbiome were analysed based on 40 sequenced samples exposed to T3 or T4 across premet, promet and froglets life stages. 
 
 The skin microbiota of the T3 and T4 exposed samples were dominated by proteobacteria and bacteriodetes. 
-The exposure of T4 but not T3 led to an increase in alpha diversity measured by both Shannon H and Simpson index with an enrichment in Caulobacter henricii and an unclassified chlamydiaceae with T4 exposure and an unclassified enterobacteriaceae with T3 exposure [Fig. @alpha_diversity_t]. 
-PCoA of UniFrac distances based on normalised OTU abundances did not show any clustering between the samples (Fig. @nmds_t, Fig. @nmds_t_cluster). 
+The exposure of T4 but not T3 led to an increase in alpha diversity measured by both Shannon H and Simpson index with an enrichment in Caulobacter henricii and an unclassified chlamydiaceae with T4 exposure and an unclassified enterobacteriaceae with T3 exposure [Fig. @fig:alpha_diversity_t]. 
+PCoA of UniFrac distances based on normalised OTU abundances did not show any clustering between the samples (Fig. @fig:nmds_t, Fig. @fig:nmds_t_cluster). 
 
 
 #### Meta-transcriptomic analysis of E2, T3, and T4 Exposure
@@ -262,7 +262,7 @@ No significant results were found from filtering with the other RefSeq databases
 
 ## Discussion {#discussion}
 
-The 16S sequencing results demonstrate a very slight response of microbial communities to T4 exposure (figure 2, figure 3), and only a single taxonomic unit being differentially present with the T3 exposure (figure 5). 
+The 16S sequencing results demonstrate a very slight response of microbial communities to T4 exposure (figure 2, figure 3), and only a single taxonomic unit being differentially present with the T3 exposure. 
 The assigning of bacterial taxonomies to expressed transcripts reveals a very slight response with T3 exposure in both tissues and T4 exposure did not result in the differential expression of any bacteria-assigned transcripts (table 3, table 5).
 
 Assigning bacterial taxonomies to assemble transcripts revealed similar bacteria phyla as the 16S sequencing result. 
@@ -274,7 +274,7 @@ The Chlamydiaceae family are part of the phylum Chlamydiae which may only grow b
 Bacteria from the genus Caulobacter oligotrophic bacterium commonly from fresh water lakes and streams with a dependency on phosphorus as a limiting nutrient [@doi:10.1099/00207713-49-3-1053].
 The selective response of these bacteria to T4 exposure is not expected and potentially incidental as the counts of both taxonomic units are quite low.
 
-Although no change in overall microbial diversity is detected with T3 exposure (figure 2), the 16S rRNA sequencing results do reveal a depletion of bacteria under the bacterial family Enterobacteriaceae (figure 5). 
+Although no change in overall microbial diversity is detected with T3 exposure, the 16S rRNA sequencing results do reveal a depletion of bacteria under the bacterial family Enterobacteriaceae. 
 This is a very large family that contains many common disease-causing bacteria such as Salmonella, Escherichia coli, and Shigella, as well as some non-pathogenic bacteria.
 The abundance of this taxonomic unit is quite substantial indicating that the response of this family may be an indirect response from T3 exposure to the tadpole host. From the microbial RNA-Seq method, only a single transcript is present in significant abundance in the OEE2, TFE2, and TFT4 exposure sets.
 
@@ -282,7 +282,7 @@ The microbial RNA-Seq only detected a difference in bacteria-assigned transcript
 The transcript assigned to C. botulinum transcript exhibits significant abundance in all exposure sets and appears to be responsive to T3 exposure in both tissues. 
 Since the blastn annotation of this gene returns X. laevis rRNA as the top hits, it is unclear whether this transcript is really from a bacterial rRNA gene and has been misannotated in NCBI’s database or is a frog gene and happens to have at least 40% of its k-mers being identical matches to C. clostridium. 
 The transcript assigned to M. luteus is confirmed to be a segment of the 16S rRNA gene from that bacterial species with the blastn annotation. 
-This bacteria is commonly found in soil, dust, water and air, and as part of the normal microbiota of the mammalian skin [@doi10.1007/s00248-003-2016-5].
+This bacteria is commonly found in soil, dust, water and air, and as part of the normal microbiota of the mammalian skin [@doi:10.1007/s00248-003-2016-5].
 
 The microbial RNA-Seq method captured a variety of virus-assigned transcripts that cannot be capture with 16S sequencing methods (table 6, table 8). 
 In this dataset, there is likely a high false positive from human contamination due to retroviruses in the virus database which may have gene segments that match the human genome. 
