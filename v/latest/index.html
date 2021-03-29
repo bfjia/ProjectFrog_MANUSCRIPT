@@ -51,9 +51,9 @@
   <meta name="citation_fulltext_html_url" content="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/" />
   <meta name="citation_pdf_url" content="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/v/f085f3b5e256ccf3b2b19ae36a09f7d42f0f307f/" />
-  <meta name="manubot_html_url_versioned" content="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/v/f085f3b5e256ccf3b2b19ae36a09f7d42f0f307f/" />
-  <meta name="manubot_pdf_url_versioned" content="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/v/f085f3b5e256ccf3b2b19ae36a09f7d42f0f307f/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/v/463ab76bfa6ae37c950528d4dec919c160b76c50/" />
+  <meta name="manubot_html_url_versioned" content="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/v/463ab76bfa6ae37c950528d4dec919c160b76c50/" />
+  <meta name="manubot_pdf_url_versioned" content="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/v/463ab76bfa6ae37c950528d4dec919c160b76c50/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +67,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/v/f085f3b5e256ccf3b2b19ae36a09f7d42f0f307f/">permalink</a>)
+(<a href="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/v/463ab76bfa6ae37c950528d4dec919c160b76c50/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/imasianxd/ProjectFrog_MANUSCRIPT/tree/f085f3b5e256ccf3b2b19ae36a09f7d42f0f307f">imasianxd/ProjectFrog_MANUSCRIPT@f085f3b</a>
+from <a href="https://github.com/imasianxd/ProjectFrog_MANUSCRIPT/tree/463ab76bfa6ae37c950528d4dec919c160b76c50">imasianxd/ProjectFrog_MANUSCRIPT@463ab76</a>
 on March 29, 2021.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -162,14 +162,14 @@ The integrity of isolated RNA was analyzed using a Bioanalyzer 2100 (Agilent Tec
 RNA samples were shipped on dry ice to Canada’s Michael Smith Genome Sciences Centre (GSC, BC Cancer Research, Canada), where strand-specific mRNA libraries were constructed and sequenced using Illumina HiSeq 2500 (paired-end platform generating 2 x 75 base pair reads for each sample).
 The sequence data is available in NCBI SRA database under biosample ID 123456789.</p>
 <h3 id="meta-transcriptiomic-analysis">Meta-transcriptiomic Analysis</h3>
-<p>Our RNA-Seq analysis pipeline follows the schematic presented in figure (??).
+<p>Our RNA-Seq analysis pipeline follows the schematic presented in figure (Fig. <a href="#fig:methodology_overview">2</a>).
 Reads quality was assessed using FastQC to ensure high read quality in all samples.
 Using TransAbyss, the fastq reads generated from each sample was assembled denovo into a reference transcriptome library representing each transcript that could be assembled given the paired-end reads supplied.
 We created a complete reference transcriptome assembled using TransAbyss All reference transcriptome libraries were then merged and filtered to remove duplicated sequences, and this merged reference transcriptome was filtered through a large library of microbial RefSeq sequences using Kraken2 to create a library of microbial transcript sequences that were found in one or more of the sequenced samples.</p>
 <p>Kraken2 is a taxonomic classification system that relies on exact k-mer matches instead of percent identity and coverage.
 Kraken2 matches the query sequences to the lowest common ancestor that is matched within the selected database.
 Kraken2 will assign a taxonomy if the number of identical k-mer matches passes a threshold percentage of all k-mers of a given sequence, as set by the user.
-The optimal threshold for taxonomic assignment in this dataset was determined to be a 40% confidence threshold of k-mer matches (Fig. ??).</p>
+The optimal threshold for taxonomic assignment in this dataset was determined to be a 40% confidence threshold of k-mer matches (Fig. <a href="#fig:kmer_threshold">3</a>).</p>
 <p>The Kraken2 database used to filter for microbial transcripts includes the following RefSeq sequences:
 -Archaea: RefSeq complete archaeal genomes/proteins
 -Bacteria: RefSeq complete bacterial genomes/proteins
@@ -183,39 +183,21 @@ The optimal threshold for taxonomic assignment in this dataset was determined to
 The mapped reads were the assembled into transcripts and counted for differential expression analysis using DESeq2.
 We then extracted two lists of sequences for each WEC exposure condition and tissue type: one list containing all transcripts that were significantly represented in the majority of samples within a given exposure and control set (cpm &gt; 0.1), and one list containing all transcripts that were significantly differentially expressed with a specific exposure condition.
 These two lists were then fed through the kraken2 databases consisting of each of the RefSeq libraries above, which will assign a taxonomy to a transcript at a match threshold.</p>
-<p><img src="images/method_overview.png" id="fig:methodology_overview" style="width:6.5in" alt="RNASeq methodology overview. figure description." />
-<img src="images/kmer_threshold.png" id="fig:kmer_threshold" style="width:6.5in" alt="K-mer threshold for taxonomy identification. Excluding counts generated using a 10 to 30 % confidence intervals for kraken2 mapping creates a linear correlation (R2 &gt; 0.95) between percent confidence and number of bacterial." /></p>
 <h2 id="results">Results</h2>
 <h3 id="characterization-of-lithobates-catesbeianus-skin-bacterial-microbiome-across-life-stages.">Characterization of Lithobates catesbeianus skin bacterial microbiome across life stages.</h3>
 <p>Overall, seven phyla were detected at a high abundance and represented &gt;95% of all bullfrog microbiomes (Fig. <span class="citation" data-cites="phylum_combined">[<span class="citeproc-not-found" data-reference-id="phylum_combined"><strong>???</strong></span>]</span>).
 Proteobacteria were the most dominant in tadpoles (median 27%) followed by Fusobacteria (median 12%), but both of their relative abundance decreased with life stage.
 At the froglet stage, Verrucomicrobia (median 89%) became the most dominant phyla.</p>
-<div id="fig:phylum_combined" class="fignos">
-<figure>
-<img src="images/phylum_label.png" style="width:6.5in" alt="" /><figcaption><span>Figure 1:</span> <strong>Relative Abundance of 16S Microbiomes at the Bacterial Phylum Level</strong>. The relative abundance of the top 10 bacterial phyla present across all samples represents &gt;99% of all reads sequenced. The tadpole skin microbiome (labelled 1-23) consisted of predominately Proteobacteria (Purple). However, as life stage progresses, froglets are dominated by Verrucomicrobia. The relative distribution of phyla in the positive control (labelled POS) is as expected. Sterile swabs (labelled SSC) and negative controls (labelled NSC) have &lt;2k reads on average.</figcaption>
-</figure>
-</div>
 <p>We further explored the difference between the lifestages using an alpha diversity measure via the Shannon-Wiener index.
 Tadpoles exhited the greatest alpha diversity, decreasing as it progresses to froglets (Fig. <span class="citation" data-cites="alpha_diversity">[<span class="citeproc-not-found" data-reference-id="alpha_diversity"><strong>???</strong></span>]</span>).
 Using unweighted UniFrac distance, we showed the separation of microbiomes associated with each life stage.
 We captured this separate using a 2-axis PCoA, demostrating a distinct separation of froglet and tadpoles, with samples in different stages of metamorphosis scattered in between (Fig. <span class="citation" data-cites="bray_nmds">[<span class="citeproc-not-found" data-reference-id="bray_nmds"><strong>???</strong></span>]</span>, Fig. <span class="citation" data-cites="bray_nmds_cluster">[<span class="citeproc-not-found" data-reference-id="bray_nmds_cluster"><strong>???</strong></span>]</span>).
 Frog sex, mass and length of the tadpole had no impact on the community composition (Fig. <span class="citation" data-cites="sex_mass_length">[<span class="citeproc-not-found" data-reference-id="sex_mass_length"><strong>???</strong></span>]</span>)</p>
-<p><img src="images/alpha_diversity.png" id="fig:alpha_diversity" style="width:6.5in" alt="Shannon Diversity Index of The Microbiomes Comparing Different Conditions." />
-<img src="images/bray_nmds.png" id="fig:bray_nmds" style="width:6.5in" alt="NMDS of the micorbiomes." />
-<img src="images/bray_nmds_cluster.png" id="fig:bray_nmds_cluster" style="width:6.5in" alt="NMDS of the micorbiomes." /></p>
-<div id="fig:sex_mass_length" class="fignos">
-<figure>
-<img src="images/sex_mass_length.png" style="width:6.5in" alt="" /><figcaption><span>Figure 2:</span> <strong>Community composition did not correlate with mass, size, or sex</strong>.</figcaption>
-</figure>
-</div>
 <h3 id="the-effect-of-t3-and-t4-exposure-on-the-lithobates-catesbeianus-skin-microbiome.">The effect of T3 and T4 Exposure on the Lithobates catesbeianus skin microbiome.</h3>
 <p>The skin microbiome were analysed based on 40 sequenced samples exposed to T3 or T4 (across premet, promet and froglets life stages).</p>
 <p>The skin microbiota of the T3 and T4 exposed samples were dominated by proteobacteria and bacteriodetes.
 The exposure of T4 but not T3 led to an increase in alpha diversity measured by both Shannon H and Simpson index with an enrichment in Caulobacter henricii and an unclassified chlamydiaceae with T4 exposure and an unclassified enterobacteriaceae with T3 exposure <span class="citation" data-cites="alpha_diversity_t">[Fig. <span class="citeproc-not-found" data-reference-id="alpha_diversity_t"><strong>???</strong></span>]</span>.
 PCoA of UniFrac distances based on normalised OTU abundances did not show any clustering between the samples (Fig. <span class="citation" data-cites="nmds_t">[<span class="citeproc-not-found" data-reference-id="nmds_t"><strong>???</strong></span>]</span>, Fig. <span class="citation" data-cites="nmds_t_cluster">[<span class="citeproc-not-found" data-reference-id="nmds_t_cluster"><strong>???</strong></span>]</span>).</p>
-<p><img src="images/alpha_diversity_t.png" id="fig:alpha_diversity_t" style="width:6.5in" alt="Shannon Diversity Index of The T3/T4 Microbiomes Comparing Different Conditions." />
-<img src="images/unifrac_pcoa_t.png" id="fig:nmds_t" style="width:6.5in" alt="PCoA of the T3/T4 treated micorbiomes." />
-<img src="images/unifrac_pcoa_t.png" id="fig:nmds_t_cluster" style="width:6.5in" alt="PCoA of the T3/T4 treated micorbiomes." /></p>
 <h4 id="meta-transcriptomic-analysis-of-e2-t3-and-t4-exposure">Meta-transcriptomic analysis of E2, T3, and T4 Exposure</h4>
 <p>From the counts generated from the tank water data set, primarily proteobacteria and Bacteroidetes were counted, specifically bacteria from the flavobacterium genus.
 Assigning bacterial taxonomies to de novo assembled transcripts from the TF and OE of tadpoles from the E2, T4, and T3 exposure sets revealed the presence of mostly bacteria from the proteobacteria phylum, with a smaller portion of bacterial transcripts mapping to gram positive phyla actinobacteria and firmicutes in both tissues (table 2, table 4).
@@ -261,7 +243,6 @@ All these transcripts exhibit a roughly 0.5-fold change with either T3 or T4 exp
 These transcripts are likely false positives as they are annotated to be from human mitochondrial genomes following a blastn query.
 A transcript assigned to Human endogenous retrovirus K is also differentially expressed in the OE, with a 3-fold change in transcript abundance with T3 exposure (table 18).
 This transcript is in much lower abundance and although it was determined to be the HERV-K gene from this retrovirus, it is still likely that this is a false positive from human contamination.</p>
-<h2 id="supplementals">Supplementary Information</h2>
 <h2 id="acknowledgements">Acknowledgements</h2>
 <p>The authors would like to thank their funders and the Simon Fraser University (SFU) Research Computing Group and Compute Canada for compute resource support.</p>
 <h2 id="funding-information">Funding Information</h2>
@@ -271,6 +252,62 @@ Additionally, this work was partially supported by Genome Canada and NSERC grant
 <h2 id="conflict-of-interest">Conflict of Interest</h2>
 <p>The authors declare no competing interests.</p>
 <h2 id="references">References</h2>
+<div id="fig:map" class="fignos">
+<figure>
+<img src="images/map.png" alt="" /><figcaption><span>Figure 1:</span> Critical habitat of the St. Lawrence Estuary (SLE;)</figcaption>
+</figure>
+</div>
+<div id="fig:methodology_overview" class="fignos">
+<figure>
+<img src="images/method_overview.png" style="width:6.5in" alt="" /><figcaption><span>Figure 2:</span> <strong>RNASeq methodology overview</strong>. figure description.</figcaption>
+</figure>
+</div>
+<div id="fig:kmer_threshold" class="fignos">
+<figure>
+<img src="images/kmer_threshold.png" style="width:6.5in" alt="" /><figcaption><span>Figure 3:</span> <strong>K-mer threshold for taxonomy identification</strong>. Excluding counts generated using a 10 to 30% confidence intervals for kraken2 mapping creates a linear correlation (R2 &gt; 0.95) between percent confidence and number of bacterial.</figcaption>
+</figure>
+</div>
+<div id="fig:phylum_combined" class="fignos">
+<figure>
+<img src="images/phylum_label.png" style="width:6.5in" alt="" /><figcaption><span>Figure 4:</span> <strong>Relative Abundance of 16S Microbiomes at the Bacterial Phylum Level</strong>. The relative abundance of the top 10 bacterial phyla present across all samples represents &gt;99% of all reads sequenced. The tadpole skin microbiome (labelled 1-23) consisted of predominately Proteobacteria (Purple). However, as life stage progresses, froglets are dominated by Verrucomicrobia. The relative distribution of phyla in the positive control (labelled POS) is as expected. Sterile swabs (labelled SSC) and negative controls (labelled NSC) have &lt;2k reads on average.</figcaption>
+</figure>
+</div>
+<div id="fig:alpha_diversity" class="fignos">
+<figure>
+<img src="images/alpha_diversity.png" style="width:6.5in" alt="" /><figcaption><span>Figure 5:</span> <strong>Shannon Diversity Index of The Microbiomes Comparing Different Conditions</strong>.</figcaption>
+</figure>
+</div>
+<div id="fig:bray_nmds" class="fignos">
+<figure>
+<img src="images/bray_nmds.png" style="width:6.5in" alt="" /><figcaption><span>Figure 6:</span> <strong>NMDS of the micorbiomes</strong>.</figcaption>
+</figure>
+</div>
+<div id="fig:bray_nmds_cluster" class="fignos">
+<figure>
+<img src="images/bray_nmds_cluster.png" style="width:6.5in" alt="" /><figcaption><span>Figure 7:</span> <strong>NMDS of the micorbiomes</strong>.</figcaption>
+</figure>
+</div>
+<div id="fig:sex_mass_length" class="fignos">
+<figure>
+<img src="images/sex_mass_length.png" style="width:6.5in" alt="" /><figcaption><span>Figure 8:</span> <strong>Community composition did not correlate with mass, size, or sex</strong>.</figcaption>
+</figure>
+</div>
+<div id="fig:alpha_diversity_t" class="fignos">
+<figure>
+<img src="images/alpha_diversity_t.png" style="width:6.5in" alt="" /><figcaption><span>Figure 9:</span> <strong>Shannon Diversity Index of The T3/T4 Microbiomes Comparing Different Conditions</strong>.</figcaption>
+</figure>
+</div>
+<div id="fig:nmds_t" class="fignos">
+<figure>
+<img src="images/unifrac_pcoa_t.png" style="width:6.5in" alt="" /><figcaption><span>Figure 10:</span> <strong>PCoA of the T3/T4 treated micorbiomes</strong>.</figcaption>
+</figure>
+</div>
+<div id="fig:nmds_t_cluster" class="fignos">
+<figure>
+<img src="images/unifrac_pcoa_t.png" style="width:6.5in" alt="" /><figcaption><span>Figure 11:</span> <strong>PCoA of the T3/T4 treated micorbiomes</strong>.</figcaption>
+</figure>
+</div>
+<h2 id="supplementals">Supplementary Information</h2>
 <h2 class="page_break_before" id="references-1">References</h2>
 <!-- Explicitly insert bibliography here -->
 <div id="refs" class="references hanging-indent" role="doc-bibliography">
