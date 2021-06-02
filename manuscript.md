@@ -52,9 +52,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/" />
   <meta name="citation_pdf_url" content="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/v/45872ae1950ab5816934f673dd980260f803fc4c/" />
-  <meta name="manubot_html_url_versioned" content="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/v/45872ae1950ab5816934f673dd980260f803fc4c/" />
-  <meta name="manubot_pdf_url_versioned" content="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/v/45872ae1950ab5816934f673dd980260f803fc4c/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/v/e2ebeeee5aeaf971c98cc84b687887d5cccc0ff7/" />
+  <meta name="manubot_html_url_versioned" content="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/v/e2ebeeee5aeaf971c98cc84b687887d5cccc0ff7/" />
+  <meta name="manubot_pdf_url_versioned" content="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/v/e2ebeeee5aeaf971c98cc84b687887d5cccc0ff7/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -76,9 +76,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/v/45872ae1950ab5816934f673dd980260f803fc4c/))
+([permalink](https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/v/e2ebeeee5aeaf971c98cc84b687887d5cccc0ff7/))
 was automatically generated
-from [imasianxd/ProjectFrog_MANUSCRIPT@45872ae](https://github.com/imasianxd/ProjectFrog_MANUSCRIPT/tree/45872ae1950ab5816934f673dd980260f803fc4c)
+from [imasianxd/ProjectFrog_MANUSCRIPT@e2ebeee](https://github.com/imasianxd/ProjectFrog_MANUSCRIPT/tree/e2ebeeee5aeaf971c98cc84b687887d5cccc0ff7)
 on June 2, 2021.
 </em></small>
 
@@ -202,8 +202,10 @@ Raw sequencing reads were demultiplexed and processing within QIIME2 (Ver. 2018.
 Amplicon sequence variants (ASVs) identified using QIIME2 submodule DADA2 [@doi:10.1038/nmeth.3869]. 
 Taxonomic assignment of ASVs was done using QIIME2 VSEARCH submodule against the Silva 16s rRNA database (ver. 132, 99%;) [@doi:10.1093/nar/gks1219].  
 Alpha diversity of microbiomes was calculated using the Shannon-Wiener Diversity Index. 
-Beta diversity was measured using the weighted-unifrac distance and visualized using PCoA. 
-Taxa correlation with life stage was identified using pearson correlation. 
+Beta diversity was measured using the Bray-Curtis distance and visualized using 2 or 3 axis Non-metric Multi-dimensional Scaling (NMDS). 
+Taxa abundance correlation with tadpole length and weight was identified using pearson correlation. 
+The significance of differential taxa abundance between groups was calculated using Kruskal–Wallis H test followed by a pair-wise Student's t-test. 
+False discovery rate adjusted using the Benjamin-Hochberg procedure. 
 
 ### Meta-transcriptomic Sequencing
 
@@ -243,13 +245,11 @@ These two lists were then fed through the kraken2 databases consisting of each o
 
 ## Results {#results}
 
-### Data Summary
+### Lithobates catesbeianus skin microbiomes is unique and distinct compared to it's environment.
 A total of 341 samples, including negative controls (n=11), positive controls (n=10), swab (n=6) and glove (n=6) controls,  were sequenced in four sequencing experiments. 
 Combined, there were 56 tank biofilm microbiome samples, 79 natural metamorphosis frog microbiomes and 96 hormone exposed frog microbiomes. 
 Across all experiments, we produced 46.7million reads assigned into 19,850 amplicon sequencing variants (ASVs).
 Both the negative and positive sequencing control produced taxa distributions as expected, with negative controls generally having reduced to zero number of reads compared to swabs (Fig. @fig:barplot_phylumall). 
-
-### Lithobates catesbeianus skin microbiome is unique and distinct compared to it's environment.
 Using NMDS and k-means clustering using bray-curtis distance measurements, the frog microbiomes are distinct from the controls and surrounding water (Fig. @fig:cluster_source). 
 There exist a small overlap between tank water and frog skin communities. 
 We note that the control samples as well as some skin samples had a low number of reads. 
@@ -273,17 +273,17 @@ Lastly, we note a significant decrease in alpha diversity of froglets compared t
 
 By contrast, hormone exposed tadpoles did not exihibit a strong shift in their microbiomes through out their developmental stage.
 Bacteroidetes, and Proteobacteria were again the dominant phyla similar to the microbiomes of tadpoles that underwent natural metamorphosis. 
-Regardless of hormone (i.e. T3, T4, or cocktail), there were no significant changes in phyla composition (Fig. @fig:barplot_phylumhormone). 
-There were also no change in alpha diversity as the tadpoles age (Fig. @fig:alphadiv_hormone). 
+Regardless of hormone (i.e. T3, T4, or E2), there were no significant changes in phyla composition (Fig. @fig:barplot_phylumhormone). 
+There were also no change in alpha diversity as the tadpoles age. 
 
 The sex of the frog had no significant impact on the community composition. (Fig. @fig:cluster_sex)
 The weight and length of tadpoles of naturally developing, but not hormone exposed, frogs correlated with shifts in taxa abundances of the microbiomes. 
 
-### The effect of T3 and T4 Exposure on the Lithobates catesbeianus skin microbiome. 
+### The effect of E2, T3 and T4 Exposure on the Lithobates catesbeianus skin microbiome. 
 
-The skin microbiome were analysed based on samples exposed to cocktail, T3 or T4 across premet, and promet life stages. 
+The skin microbiome were analysed based on samples exposed to E2, T3 or T4 across premet, and promet life stages. 
 
-No significant changes in taxa abundance identified in tadpole microbiomes exposed to the cocktail, T3 and T4 hormones with respect to their control. 
+No significant changes in taxa abundance identified in tadpole microbiomes exposed to the E2, T3 and T4 hormones with respect to their control. 
 NMDS plots calculated using the Bray-Curtis distance did not produce any clustering between control and exposure conditions (Fig. @fig:cluster_exposure)
 However, there was a signficantly increased alpha diversity of T4 exposed tadpoles (Fig. @fig:alphadiv_t4).
 
@@ -373,17 +373,15 @@ The authors declare no competing interests.
 
 ![**Differential phyla abundances between tadpoles and froglets**. Four phyla had significant changes >2 fold between tadpoles (purple) and froglets (yellow) developmental stage. Bacteroidetes, Firmicutes, Fusobacteria all exhibited significant (q<0.01) decreases in their abundance while Verrucomicrobia increased as the tadpoles metamorphosized into froglets.](images/difexpr_phylumnatural.png){#fig:difexpr_phylumnatural width="6.5in"}
 
-![**Alpha diversity of tadpoles are higher compared to froglets**. Froglets (cyan) exhibited a significant (q<0.01) decrease in alpha diversity as measured by the Shannon Index compared to tadpoles (orange).](images/cluster_natural.png){#fig:cluster_natural width="6.5in"}
+![**Alpha diversity of tadpoles are higher compared to froglets**. Froglets (cyan) exhibited a significant (q<0.01) decrease in alpha diversity as measured by the Shannon Index compared to tadpoles (orange).](images/alphadiv_natural.png){#fig:alphadiv_natural width="6.5in"}
 
 ![**Relative phyla abundances of the tadpole microbiomes that was exposed to T3 and T4**. The skin microbiomes (X-axis) of the tadpoles, classified according to their stage of development (bottom categories), are composed of 9 major phyla. No significant shifts in microbial communities occured with tadpole development regardless of hormone exposure.   ](images/barplot_phylumnatural.png){#fig:barplot_phylumnatural width="6.5in"}
 
-![**Alpha diversity of tadpoles exposed to T3/T4**. Froglets (cyan) exhibited a significant (q<0.01) decrease in alpha diversity as measured by the Shannon Index compared to tadpoles (orange).](images/@fig:alphadiv_hormone.png){#fig:@fig:alphadiv_hormone width="6.5in"}
+![**The sex of the frogs did not contribute to large changes in microbiome**. The sex of the frog had no significant impact on the community composition. ](images/@fig:cluster_sex.png){#fig:@fig:cluster_sex width="6.5in"}
 
-![**The sex of the frogs did not contribute to large changes in microbiome**. The sex of the frog had no significant impact on the community composition. ](images/@fig:alphadiv_hormone.png){#fig:@fig:alphadiv_hormone width="6.5in"}
+![**Clustering of microbiomes according to hormone exposure**. There were no significant differences in the microbiomes of hormone exposed (green) versus control exposed (blue) as measured by the Bray-Curtis distance.](images/cluster_exposure.png){#fig:cluster_exposure width="6.5in"}
 
-![**Clustering of microbiomes according to hormone exposure**. There were no significant differences in the microbiomes of hormone exposed (green) versus control exposed (blue) as measured by the Bray-Curtis distance.](images/cluster_natural.png){#fig:cluster_natural width="6.5in"}
-
-![**T4 exposure led to an increase in alpha diversity**. Tadpoles exposed to T4 (cyan) exhibited a significant (q=0.01) i in alpha diversity as measured by the Shannon Index compared to tadpoles (orange). T3 and cocktail exposure did not have any effect on alpha diversity.](images/@fig:alphadiv_hormone.png){#fig:@fig:alphadiv_hormone width="6.5in"}
+![**T4 exposure led to an increase in alpha diversity**. Tadpoles exposed to T4 (cyan) exhibited a significant (q=0.01) increase in alpha diversity as measured by the Shannon Index compared to tadpoles (orange). T3 and E2 exposure did not have any effect on alpha diversity.](images/@fig:alphadiv_t4.png){#fig:@fig:alphadiv_t4 width="6.5in"}
 
 ![**RNASeq methodology overview**. figure description. ](images/method_overview.png){#fig:methodology_overview width="6.5in"}
 
