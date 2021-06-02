@@ -52,9 +52,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/" />
   <meta name="citation_pdf_url" content="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/v/e2ebeeee5aeaf971c98cc84b687887d5cccc0ff7/" />
-  <meta name="manubot_html_url_versioned" content="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/v/e2ebeeee5aeaf971c98cc84b687887d5cccc0ff7/" />
-  <meta name="manubot_pdf_url_versioned" content="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/v/e2ebeeee5aeaf971c98cc84b687887d5cccc0ff7/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/v/434b9628ee61568dd4f957bbb823b633c9a661c9/" />
+  <meta name="manubot_html_url_versioned" content="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/v/434b9628ee61568dd4f957bbb823b633c9a661c9/" />
+  <meta name="manubot_pdf_url_versioned" content="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/v/434b9628ee61568dd4f957bbb823b633c9a661c9/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -76,9 +76,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/v/e2ebeeee5aeaf971c98cc84b687887d5cccc0ff7/))
+([permalink](https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/v/434b9628ee61568dd4f957bbb823b633c9a661c9/))
 was automatically generated
-from [imasianxd/ProjectFrog_MANUSCRIPT@e2ebeee](https://github.com/imasianxd/ProjectFrog_MANUSCRIPT/tree/e2ebeeee5aeaf971c98cc84b687887d5cccc0ff7)
+from [imasianxd/ProjectFrog_MANUSCRIPT@434b962](https://github.com/imasianxd/ProjectFrog_MANUSCRIPT/tree/434b9628ee61568dd4f957bbb823b633c9a661c9)
 on June 2, 2021.
 </em></small>
 
@@ -308,21 +308,22 @@ No significant results were found from filtering with the other RefSeq databases
 
 ## Discussion {#discussion}
 
-The 16S sequencing results demonstrate a very slight response of microbial communities to T4 exposure (figure 2, figure 3), and only a single taxonomic unit being differentially present with the T3 exposure. 
-The assigning of bacterial taxonomies to expressed transcripts reveals a very slight response with T3 exposure in both tissues and T4 exposure did not result in the differential expression of any bacteria-assigned transcripts (table 3, table 5).
+This study characterized the skin microbiome of North American Xenopus frogs as it metamorphosizes naturally as well as when exposed to endocrine disrupting compounds (EDCs).
+These data combined gave us an overview of 1) the core frog skin microbiome, 2) variations of the skin microbiome through tadpole development and metamorphosis, and 3) potential effect of EDCs on the skin microbiome through development.
+
+#### The Tadpole Skin Microbiome is Unique and Shares a Core Composition that Changes With Natural Metamorphosis
+Analysis of the tadpole and froglet microbiomes revealed a Proteobacteria domination in their core microbiome. 
+However, this core composition shifts to a Verrucomicrobia dominance as the tadpoles naturally metamophosizes to froglets.
+This increase in Verrucomicrobia is composed of an increase in the order Verrucomicrobiales.
+There was not enough resolution to classify these ASVs further.
+These predominant phyla found in the frog skin microbiomes are consistent with the skin microbiomes of other marine mammals in both the wild and captive (For example: Killer whales [@doi:10.1038/s41598-017-00457-5], captive dolphins [@doi:10.1038/ncomms10516]). 
+
+#### EDC Exposure Did Not Led to Any Changes in the Frog's Microbiome.
+The 16S sequencing results demonstrated no significant differences between the microbiomes of E2, T3 and T4 exposed tadpoles. However, the assigning of bacterial taxonomies to expressed transcripts reveals a very slight response with T3 exposure in both tissues and T4 exposure did not result in the differential expression of any bacteria-assigned transcripts (table 3, table 5).
 
 Assigning bacterial taxonomies to assemble transcripts revealed similar bacteria phyla as the 16S sequencing result. 
 Both techniques capture mostly bacteria belonging to the phylum proteobacteria, with firmicutes captured as well. 
 16S sequencing uniquely captures the presence of Bacteroidetes and fusobacteria, where RNA-Seq methods capture the presence of actinobacteria.
-
-From the 16S rRNA sequencing results, the two taxonomic units that are differentially present with T4 exposure are the bacteria species Caulobacter henricii and the family Chlamydiaceae. 
-The Chlamydiaceae family are part of the phylum Chlamydiae which may only grow by infecting a eukaryotic host cell [@doi:10.1371/journal.ppat.1003553].
-Bacteria from the genus Caulobacter oligotrophic bacterium commonly from fresh water lakes and streams with a dependency on phosphorus as a limiting nutrient [@doi:10.1099/00207713-49-3-1053].
-The selective response of these bacteria to T4 exposure is not expected and potentially incidental as the counts of both taxonomic units are quite low.
-
-Although no change in overall microbial diversity is detected with T3 exposure, the 16S rRNA sequencing results do reveal a depletion of bacteria under the bacterial family Enterobacteriaceae. 
-This is a very large family that contains many common disease-causing bacteria such as Salmonella, Escherichia coli, and Shigella, as well as some non-pathogenic bacteria.
-The abundance of this taxonomic unit is quite substantial indicating that the response of this family may be an indirect response from T3 exposure to the tadpole host. From the microbial RNA-Seq method, only a single transcript is present in significant abundance in the OEE2, TFE2, and TFT4 exposure sets.
 
 The microbial RNA-Seq only detected a difference in bacteria-assigned transcript response with the T3 exposure (table 3, table 5). 
 The transcript assigned to C. botulinum transcript exhibits significant abundance in all exposure sets and appears to be responsive to T3 exposure in both tissues. 
@@ -377,11 +378,11 @@ The authors declare no competing interests.
 
 ![**Relative phyla abundances of the tadpole microbiomes that was exposed to T3 and T4**. The skin microbiomes (X-axis) of the tadpoles, classified according to their stage of development (bottom categories), are composed of 9 major phyla. No significant shifts in microbial communities occured with tadpole development regardless of hormone exposure.   ](images/barplot_phylumnatural.png){#fig:barplot_phylumnatural width="6.5in"}
 
-![**The sex of the frogs did not contribute to large changes in microbiome**. The sex of the frog had no significant impact on the community composition. ](images/@fig:cluster_sex.png){#fig:@fig:cluster_sex width="6.5in"}
+![**The sex of the frogs did not contribute to large changes in microbiome**. The sex of the frog had no significant impact on the community composition. ](images/cluster_sex.png){#fig:cluster_sex width="6.5in"}
 
 ![**Clustering of microbiomes according to hormone exposure**. There were no significant differences in the microbiomes of hormone exposed (green) versus control exposed (blue) as measured by the Bray-Curtis distance.](images/cluster_exposure.png){#fig:cluster_exposure width="6.5in"}
 
-![**T4 exposure led to an increase in alpha diversity**. Tadpoles exposed to T4 (cyan) exhibited a significant (q=0.01) increase in alpha diversity as measured by the Shannon Index compared to tadpoles (orange). T3 and E2 exposure did not have any effect on alpha diversity.](images/@fig:alphadiv_t4.png){#fig:@fig:alphadiv_t4 width="6.5in"}
+![**T4 exposure led to an increase in alpha diversity**. Tadpoles exposed to T4 (cyan) exhibited a significant (q=0.01) increase in alpha diversity as measured by the Shannon Index compared to tadpoles (orange). T3 and E2 exposure did not have any effect on alpha diversity.](images/alphadiv_t4.png){#fig:alphadiv_t4 width="6.5in"}
 
 ![**RNASeq methodology overview**. figure description. ](images/method_overview.png){#fig:methodology_overview width="6.5in"}
 
