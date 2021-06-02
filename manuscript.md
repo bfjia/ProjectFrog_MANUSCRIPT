@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2021-03-29'
+date-meta: '2021-06-02'
 author-meta:
 - Jacob Imbery*
 - Baofeng Jia*
@@ -22,8 +22,8 @@ header-includes: |-
   <meta name="citation_title" content="Manuscript Title" />
   <meta property="og:title" content="Manuscript Title" />
   <meta property="twitter:title" content="Manuscript Title" />
-  <meta name="dc.date" content="2021-03-29" />
-  <meta name="citation_publication_date" content="2021-03-29" />
+  <meta name="dc.date" content="2021-06-02" />
+  <meta name="citation_publication_date" content="2021-06-02" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -52,9 +52,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/" />
   <meta name="citation_pdf_url" content="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/v/983706a832a710301c6bcc695220f72b7d4a7bae/" />
-  <meta name="manubot_html_url_versioned" content="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/v/983706a832a710301c6bcc695220f72b7d4a7bae/" />
-  <meta name="manubot_pdf_url_versioned" content="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/v/983706a832a710301c6bcc695220f72b7d4a7bae/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/v/45872ae1950ab5816934f673dd980260f803fc4c/" />
+  <meta name="manubot_html_url_versioned" content="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/v/45872ae1950ab5816934f673dd980260f803fc4c/" />
+  <meta name="manubot_pdf_url_versioned" content="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/v/45872ae1950ab5816934f673dd980260f803fc4c/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -76,10 +76,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/v/983706a832a710301c6bcc695220f72b7d4a7bae/))
+([permalink](https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/v/45872ae1950ab5816934f673dd980260f803fc4c/))
 was automatically generated
-from [imasianxd/ProjectFrog_MANUSCRIPT@983706a](https://github.com/imasianxd/ProjectFrog_MANUSCRIPT/tree/983706a832a710301c6bcc695220f72b7d4a7bae)
-on March 29, 2021.
+from [imasianxd/ProjectFrog_MANUSCRIPT@45872ae](https://github.com/imasianxd/ProjectFrog_MANUSCRIPT/tree/45872ae1950ab5816934f673dd980260f803fc4c)
+on June 2, 2021.
 </em></small>
 
 ## Authors
@@ -243,26 +243,49 @@ These two lists were then fed through the kraken2 databases consisting of each o
 
 ## Results {#results}
 
+### Data Summary
+A total of 341 samples, including negative controls (n=11), positive controls (n=10), swab (n=6) and glove (n=6) controls,  were sequenced in four sequencing experiments. 
+Combined, there were 56 tank biofilm microbiome samples, 79 natural metamorphosis frog microbiomes and 96 hormone exposed frog microbiomes. 
+Across all experiments, we produced 46.7million reads assigned into 19,850 amplicon sequencing variants (ASVs).
+Both the negative and positive sequencing control produced taxa distributions as expected, with negative controls generally having reduced to zero number of reads compared to swabs (Fig. @fig:barplot_phylumall). 
+
+### Lithobates catesbeianus skin microbiome is unique and distinct compared to it's environment.
+Using NMDS and k-means clustering using bray-curtis distance measurements, the frog microbiomes are distinct from the controls and surrounding water (Fig. @fig:cluster_source). 
+There exist a small overlap between tank water and frog skin communities. 
+We note that the control samples as well as some skin samples had a low number of reads. 
+
 ### Characterization of Lithobates catesbeianus skin bacterial microbiome across life stages. 
 
-Overall, seven phyla were detected at a high abundance and represented >95% of all bullfrog microbiomes (Fig. @fig:phylum_combined). 
-Proteobacteria were the most dominant in tadpoles (median 27%) followed by Fusobacteria (median 12%), but both of their relative abundance decreased with life stage. 
-At the froglet stage, Verrucomicrobia (median 89%) became the most dominant phyla. 
+Overall, nine phyla represented <98% of all bullfrog microbiomes (Fig. @fig:barplot_phylumnatural). 
+Of the nine phyla, it can be classified into 25 genera that composed of >60% of the microbiomes, on average (Fig. @fig:barplot_genusnatural).
+Proteobacteria, Verrucomicrobia, and Bacteroidetes were the three most abundance phyla. 
 
-We further explored the difference between the lifestages using an alpha diversity measure via the Shannon-Wiener index. 
-Tadpoles exhited the greatest alpha diversity, decreasing as it progresses to froglets (Fig. @fig:alpha_diversity). 
-Using unweighted UniFrac distance, we showed the separation of microbiomes associated with each life stage. 
-We captured this separate using a 2-axis PCoA, demostrating a distinct separation of froglet and tadpoles, with samples in different stages of metamorphosis scattered in between (Fig. @fig:bray_nmds, Fig. @fig:bray_nmds_cluster). 
-Frog sex, mass and length of the tadpole had no impact on the community composition (Fig. @sex_mass_length)
+In frogs that metamorphized naturally, the microbiome changes significantly with stages of development. 
+Furthermore, the microbiomes of tadpoles and froglets are distinct from each other (Fig. @fig:cluster_natural). 
+The abundance of Verrucomicrobia increases with developmental stage, with a remarkable 3-fold increase between froglets and tadpoles.
+This increase is corresponded to a significant (q<0.01) decrease in Bacteroidetes, Firmicutes, Fusobacteria, and most abundantly, Proteobacteria (Fig. @fig:barplot_phylumnatural, Fig. @fig:difexpr_phylumnatural).
+The increase in Verrucomicrobia is composed of an increase in the order Verrucomicrobiales.
+A small proportion (<15%) of Verrumicrobiales were classified to the genus Akkermansia. 
+However, the ASVs identified did not provide the resolution necessary for the further classification of ASVs associated with Verrucomibiales.  
+Other genera that had a >2fold increase were Tumebacillus, Duganella, Janthinobacterium, Massilia, and Novosphingobium.
+Of the decreasing taxa, Cellulosilyticum, Romboutsia, and Cetobacterium were the genera that exhibited a >2fold decrease in abundance.
+Lastly, we note a significant decrease in alpha diversity of froglets compared to tadpoles as measured by the Shannon index (Fig. @fig:alphadiv_natural).
+
+By contrast, hormone exposed tadpoles did not exihibit a strong shift in their microbiomes through out their developmental stage.
+Bacteroidetes, and Proteobacteria were again the dominant phyla similar to the microbiomes of tadpoles that underwent natural metamorphosis. 
+Regardless of hormone (i.e. T3, T4, or cocktail), there were no significant changes in phyla composition (Fig. @fig:barplot_phylumhormone). 
+There were also no change in alpha diversity as the tadpoles age (Fig. @fig:alphadiv_hormone). 
+
+The sex of the frog had no significant impact on the community composition. (Fig. @fig:cluster_sex)
+The weight and length of tadpoles of naturally developing, but not hormone exposed, frogs correlated with shifts in taxa abundances of the microbiomes. 
 
 ### The effect of T3 and T4 Exposure on the Lithobates catesbeianus skin microbiome. 
 
-The skin microbiome were analysed based on 40 sequenced samples exposed to T3 or T4 across premet, promet and froglets life stages. 
+The skin microbiome were analysed based on samples exposed to cocktail, T3 or T4 across premet, and promet life stages. 
 
-The skin microbiota of the T3 and T4 exposed samples were dominated by proteobacteria and bacteriodetes. 
-The exposure of T4 but not T3 led to an increase in alpha diversity measured by both Shannon H and Simpson index with an enrichment in Caulobacter henricii and an unclassified chlamydiaceae with T4 exposure and an unclassified enterobacteriaceae with T3 exposure [Fig. @fig:alpha_diversity_t]. 
-PCoA of UniFrac distances based on normalised OTU abundances did not show any clustering between the samples (Fig. @fig:nmds_t, Fig. @fig:nmds_t_cluster). 
-
+No significant changes in taxa abundance identified in tadpole microbiomes exposed to the cocktail, T3 and T4 hormones with respect to their control. 
+NMDS plots calculated using the Bray-Curtis distance did not produce any clustering between control and exposure conditions (Fig. @fig:cluster_exposure)
+However, there was a signficantly increased alpha diversity of T4 exposed tadpoles (Fig. @fig:alphadiv_t4).
 
 #### Meta-transcriptomic analysis of E2, T3, and T4 Exposure
 
@@ -336,25 +359,37 @@ The authors declare no competing interests.
 ## References {#references}
 
 
+![**The relative phylum abundance of all sequenced microbiomes.** X-axis represents an individual sample sorted by it's experiment set (top category) and source (bottom category). Proteobacteria is the most abundant phylum. ](images/barplot_phylumall.png){#fig:barplot_phylumall width="6.5in"}
+
+![**The tadpole and frog microbiomes are distinct and seperate from controls**. Using Bray-Curtis distances of the microbiomes plotted on a 2-axis NMDS, 3 distinct clusters formed, each representing a unique dataset. Both the natural metamorphosis(green) and hormone exposed (dark blue) microbiomes are distinct from the control (tank water and biofilm) microbiomes (light blue)](images/cluster_source.png){#fig:cluster_source width="6.5in"}
+
+![**Relative phyla abundances of the tadpole microbiomes that underwent natural metamorphosis**. The skin microbiomes (X-axis) of the tadpoles and froglets, classified according to their stage of development (bottom categories), are composed of 9 major phyla. A marked increase in Verrucomicrobia is seen as the tadpoles matures into froglets.  ](images/barplot_phylumnatural.png){#fig:barplot_phylumnatural width="6.5in"}
+
+![**Relative genera abundances of the tadpole microbiomes that underwent natural metamorphosis**. 25 genera made up <60% of the skin microbiomes (X-axis) of the tadpoles and froglets.](images/barplot_genusnatural.png){#fig:barplot_genusnatural width="6.5in"}
+
+
+![**Clustering of microbiomes according to the frog's metamorphosis stage**. The microbiomes of more developed froglets (green) are distinct compared to tadpoles (blue).  ](images/cluster_natural.png){#fig:cluster_natural width="6.5in"}
+
+
+![**Differential phyla abundances between tadpoles and froglets**. Four phyla had significant changes >2 fold between tadpoles (purple) and froglets (yellow) developmental stage. Bacteroidetes, Firmicutes, Fusobacteria all exhibited significant (q<0.01) decreases in their abundance while Verrucomicrobia increased as the tadpoles metamorphosized into froglets.](images/difexpr_phylumnatural.png){#fig:difexpr_phylumnatural width="6.5in"}
+
+![**Alpha diversity of tadpoles are higher compared to froglets**. Froglets (cyan) exhibited a significant (q<0.01) decrease in alpha diversity as measured by the Shannon Index compared to tadpoles (orange).](images/cluster_natural.png){#fig:cluster_natural width="6.5in"}
+
+![**Relative phyla abundances of the tadpole microbiomes that was exposed to T3 and T4**. The skin microbiomes (X-axis) of the tadpoles, classified according to their stage of development (bottom categories), are composed of 9 major phyla. No significant shifts in microbial communities occured with tadpole development regardless of hormone exposure.   ](images/barplot_phylumnatural.png){#fig:barplot_phylumnatural width="6.5in"}
+
+![**Alpha diversity of tadpoles exposed to T3/T4**. Froglets (cyan) exhibited a significant (q<0.01) decrease in alpha diversity as measured by the Shannon Index compared to tadpoles (orange).](images/@fig:alphadiv_hormone.png){#fig:@fig:alphadiv_hormone width="6.5in"}
+
+![**The sex of the frogs did not contribute to large changes in microbiome**. The sex of the frog had no significant impact on the community composition. ](images/@fig:alphadiv_hormone.png){#fig:@fig:alphadiv_hormone width="6.5in"}
+
+![**Clustering of microbiomes according to hormone exposure**. There were no significant differences in the microbiomes of hormone exposed (green) versus control exposed (blue) as measured by the Bray-Curtis distance.](images/cluster_natural.png){#fig:cluster_natural width="6.5in"}
+
+![**T4 exposure led to an increase in alpha diversity**. Tadpoles exposed to T4 (cyan) exhibited a significant (q=0.01) i in alpha diversity as measured by the Shannon Index compared to tadpoles (orange). T3 and cocktail exposure did not have any effect on alpha diversity.](images/@fig:alphadiv_hormone.png){#fig:@fig:alphadiv_hormone width="6.5in"}
+
 ![**RNASeq methodology overview**. figure description. ](images/method_overview.png){#fig:methodology_overview width="6.5in"}
 
 ![**K-mer threshold for taxonomy identification**. Excluding counts generated using a 10 to 30% confidence intervals for kraken2 mapping creates a linear correlation (R2 > 0.95) between percent confidence and number of bacterial.](images/kmer-threshold.png){#fig:kmer_threshold width="6.5in"}
 
 ![**Relative Abundance of 16S Microbiomes at the Bacterial Phylum Level**. The relative abundance of the top 10 bacterial phyla present across all samples represents >99% of all reads sequenced. The  tadpole skin microbiome (labelled 1-23) consisted of predominately Proteobacteria (Purple). However, as life stage progresses, froglets are dominated by Verrucomicrobia. The relative distribution of phyla in the positive control (labelled POS) is as expected. Sterile swabs (labelled SSC) and negative controls (labelled NSC) have <2k reads on average. ](images/phylum_label.png){#fig:phylum_combined width="6.5in"}
-
-![**Shannon Diversity Index of The Microbiomes Comparing Different Conditions**. ](images/alpha_diversity.png){#fig:alpha_diversity width="6.5in"}
-
-![**NMDS of the micorbiomes**. ](images/bray_nmds.png){#fig:bray_nmds width="6.5in"}
-
-![**NMDS of the micorbiomes**. ](images/bray_nmds_cluster.png){#fig:bray_nmds_cluster width="6.5in"}
-
-![**Community composition did not correlate with mass, size, or sex**. ](images/sex_mass_length.png){#fig:sex_mass_length width="6.5in"}
-
-![**Shannon Diversity Index of The T3/T4 Microbiomes Comparing Different Conditions**. ](images/alpha_diversity_t.png){#fig:alpha_diversity_t width="6.5in"}
-
-![**PCoA of the T3/T4 treated micorbiomes**. ](images/nmds_t.png){#fig:nmds_t width="6.5in"}
-
-![**PCoA of the T3/T4 treated micorbiomes**. ](images/nmds_t_cluster.png){#fig:nmds_t_cluster width="6.5in"}
 
 
 ## Supplementary Information {#supplementals}
