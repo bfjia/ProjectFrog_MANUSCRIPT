@@ -1,11 +1,11 @@
 ---
-title: Manuscript Title
+title: Characterizing the Skin Microbiota in Rana catesbeiana Across Natural Metamorphosis and Hormone Exposure
 keywords:
 - markdown
 - publishing
 - manubot
 lang: en-US
-date-meta: '2021-06-02'
+date-meta: '2021-06-14'
 author-meta:
 - Jacob Imbery*
 - Baofeng Jia*
@@ -18,12 +18,12 @@ header-includes: |-
   Suggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html
   -->
   <meta name="dc.format" content="text/html" />
-  <meta name="dc.title" content="Manuscript Title" />
-  <meta name="citation_title" content="Manuscript Title" />
-  <meta property="og:title" content="Manuscript Title" />
-  <meta property="twitter:title" content="Manuscript Title" />
-  <meta name="dc.date" content="2021-06-02" />
-  <meta name="citation_publication_date" content="2021-06-02" />
+  <meta name="dc.title" content="Characterizing the Skin Microbiota in Rana catesbeiana Across Natural Metamorphosis and Hormone Exposure" />
+  <meta name="citation_title" content="Characterizing the Skin Microbiota in Rana catesbeiana Across Natural Metamorphosis and Hormone Exposure" />
+  <meta property="og:title" content="Characterizing the Skin Microbiota in Rana catesbeiana Across Natural Metamorphosis and Hormone Exposure" />
+  <meta property="twitter:title" content="Characterizing the Skin Microbiota in Rana catesbeiana Across Natural Metamorphosis and Hormone Exposure" />
+  <meta name="dc.date" content="2021-06-14" />
+  <meta name="citation_publication_date" content="2021-06-14" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -52,9 +52,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/" />
   <meta name="citation_pdf_url" content="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/v/434b9628ee61568dd4f957bbb823b633c9a661c9/" />
-  <meta name="manubot_html_url_versioned" content="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/v/434b9628ee61568dd4f957bbb823b633c9a661c9/" />
-  <meta name="manubot_pdf_url_versioned" content="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/v/434b9628ee61568dd4f957bbb823b633c9a661c9/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/v/e3865274cebfa4edcc3c77c05df36558e9942f19/" />
+  <meta name="manubot_html_url_versioned" content="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/v/e3865274cebfa4edcc3c77c05df36558e9942f19/" />
+  <meta name="manubot_pdf_url_versioned" content="https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/v/e3865274cebfa4edcc3c77c05df36558e9942f19/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -76,10 +76,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/v/434b9628ee61568dd4f957bbb823b633c9a661c9/))
+([permalink](https://imasianxd.github.io/ProjectFrog_MANUSCRIPT/v/e3865274cebfa4edcc3c77c05df36558e9942f19/))
 was automatically generated
-from [imasianxd/ProjectFrog_MANUSCRIPT@434b962](https://github.com/imasianxd/ProjectFrog_MANUSCRIPT/tree/434b9628ee61568dd4f957bbb823b633c9a661c9)
-on June 2, 2021.
+from [imasianxd/ProjectFrog_MANUSCRIPT@e386527](https://github.com/imasianxd/ProjectFrog_MANUSCRIPT/tree/e3865274cebfa4edcc3c77c05df36558e9942f19)
+on June 14, 2021.
 </em></small>
 
 ## Authors
@@ -129,12 +129,12 @@ Current wastewater regulations, testing methodologies and management strategies 
 The effect of EDCs in seen in a North American Xenopus  (bullfrog)  metamorphosis model, where transformation of an aquatic tadpole into a juvenile frog can be disrupted by their presence. 
 Although there is the potential to use amphibian metamorphosis as an assay for EDC presence, current methodologies rely on a 21-day morphological assessment. 
 However, the use of microbiome profiling is quickly emerging as a novel tool for understanding environmental toxicants and their impact with a lower detection threshold than current chemical tests. 
-Here, we used 16S rRNA sequencing to profile the skin microbiome of the bullfrog at different developmental stages as well as upon exposure to thyroid hormones T3 and T4 to investigate if the bullfrog skin microbiome can be used as an indicator of environmental EDC contamination. 
-We found that T3 exposure but not T4 exposure had an effect on tadpole skin microbiomes. 
-We found that the bacterial communities on the skin of older frogs had significantly lower alpha diversity and higher abundance of a Luteolibacter sp. than found on younger frogs. 
-The thyroid hormone T4, which strongly affects frog development and metamorphosis, had a significant effect on the skin microbiome. 
-These results suggest that ECD-contaminated waste water exposure can have minimal direct effects on the Lithobates catesbeianus skin microbiome, unless the EDC has a strong effect on the host animal, in this case with metamorphic progress. 
-Taken together with the differences observed in the microbiome with metamorphic stage, these results demonstrate that the Lithobates catesbeianus skin microbiome is predominantly determined by the host animal. 
+Here, we used 16S rRNA sequencing to profile the skin microbiome of the bullfrog at different developmental stages as well as upon exposure to thyroid hormones T3 and T4 to investigate if the bullfrog skin microbiome can be used as an indicator of environmental EDC contamination.
+We found that bacterial communities on the frog's skin shifts as they develop from tadpoles to froglets. 
+This is characterizied by a significantly reduction in alpha diversity and increased abundance of a Verrucomicrobia sp. in froglets than found on younger frogs. 
+However, neither acute T3 or T4 exposure had a significant effect on the tadpole's skin microbiomes. 
+These results suggest that acute hormone exposure via ECD-contaminated waste water can have minimal direct effects on the Lithobates catesbeianus skin microbiome.
+Taken together with the differences observed in the microbiome with metamorphic stage, the skin microbiome is predominantly determined by the host animal. 
 This suggests that the skin microbiome may be a suitable tool to monitor EDCs at levels that are biologically consequential without a tendency for false positives. 
 
 ## Keywords
@@ -142,16 +142,6 @@ Microbiome, Hormone Exposure, Development.
 
 
 ## Introduction {#main}
-
-Previous work used RNA-Seq and Kraken filtering to demonstrate that Ranavirus infection resulted in a differential abundance of bacterial transcripts from specific bacterial communities.
-I have applied the same Kraken filtering techniques to RNA-Seq datasets from tail fin (TF) and olfactory epithelium (OE) tissues from pre-metamorphic bullfrog tadpoles exposed to either E2, T4, or T3.
-This data will be paired with traditional 16S rRNA sequencing methods to examine the effects these exposures have on the Rana catesbeiana bacterial and viral communities.
-
-Microbiome and why study it?
-Environmental changes don’t just impact large animals, but also effect microbes that play pivotal role in an ecosystem. 
-Every niche/surface/environment has a specific microbial community which contribute to the function of the system. 
-
-Why using frog to study environmental pollutants?
 
 Bullfrog developmental models are very sensitive to exogenous T3, as well as their sex ratios are affected by endocrine disruption in the environment. 
 Therefore bullfrogs’ skin can act as a sensitive model to study effects of hormones and disruptors on the environment. 
@@ -164,6 +154,15 @@ These changes are precociously induced in the premetamorphic tadpole by exogenou
 Our frog species, Ranidae frogs
 The current OECD 21 day assay evaluates the whole organismal response with assessment of external morphological criteria at days 7 and 21 and qualitative assessment of thyroid gland morphology at day 21. It relies upon highly inbred laboratory strains of Xenopus species that are not relevant to the North American environment.
 
+Previous work used RNA-Seq and Kraken filtering to demonstrate that Ranavirus infection resulted in a differential abundance of bacterial transcripts from specific bacterial communities.
+I have applied the same Kraken filtering techniques to RNA-Seq datasets from tail fin (TF) and olfactory epithelium (OE) tissues from pre-metamorphic bullfrog tadpoles exposed to either E2, T4, or T3.
+This data will be paired with traditional 16S rRNA sequencing methods to examine the effects these exposures have on the Rana catesbeiana bacterial and viral communities.
+
+The skin microbiome of land and marine animals contains highly diverse microbial communities that is characteristic of it's host [@doi:10.1038/s41598-017-15220-z].
+As microbiome studies become popular, research had shown that the skin micobiota changes between host life stages, environmental conditions, health state, and geographical locations [@doi:10.1111/mec.12899;@doi:10.1038/ncomms11833;@doi:10.1093/femsec/fiw109]. 
+Often, the skin is the first barrier to contaminants and support antagonistic effects against stressors [@doi:10.1038/ncomms2441;@doi:10.1016/j.jaci.2016.09.019;@doi:10.1038/jid.2009.243]. 
+While the skin microbiome of marine and land mammals has been of interest recent years [@doi:10.1186/s40168-019-0694-6], very little is known about the skin microbiota of amphibians, especially the effects of natural metamorphosis on their skin microbiota.
+Given the successful identification of microbiome biomarkers in human, animal, and environmental settings [@doi:10.1128/JB.00542-10;@doi:10.1073/pnas.1606631113;@doi:10.3389/fenvs.2015.00084], the skin microbiome of tadpoles and frogs may represents an innovative biomarker approach to monitor environmental contaminants exposure
 
 This work is part of the WEC project in which the response of pre-metamorphic tadpoles is measured to 3 different hormone treatments: Thyroxine (T4), triiodothyronine (T3), and 17-beta-estradiol (E2). 
 T4 is the precursor to the more bioactive thyroid hormone, T3. 
@@ -376,7 +375,7 @@ The authors declare no competing interests.
 
 ![**Alpha diversity of tadpoles are higher compared to froglets**. Froglets (cyan) exhibited a significant (q<0.01) decrease in alpha diversity as measured by the Shannon Index compared to tadpoles (orange).](images/alphadiv_natural.png){#fig:alphadiv_natural width="6.5in"}
 
-![**Relative phyla abundances of the tadpole microbiomes that was exposed to T3 and T4**. The skin microbiomes (X-axis) of the tadpoles, classified according to their stage of development (bottom categories), are composed of 9 major phyla. No significant shifts in microbial communities occured with tadpole development regardless of hormone exposure.   ](images/barplot_phylumnatural.png){#fig:barplot_phylumnatural width="6.5in"}
+![**Relative phyla abundances of the tadpole microbiomes that was exposed to T3 and T4**. The skin microbiomes (X-axis) of the tadpoles, classified according to their stage of development (bottom categories), are composed of 9 major phyla. No significant shifts in microbial communities occured with tadpole development regardless of hormone exposure.   ](images/barplot_phylumhormone.png){#fig:barplot_phylumhormone width="6.5in"}
 
 ![**The sex of the frogs did not contribute to large changes in microbiome**. The sex of the frog had no significant impact on the community composition. ](images/cluster_sex.png){#fig:cluster_sex width="6.5in"}
 
